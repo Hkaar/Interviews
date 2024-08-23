@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "ES2016",
+        "allowJs": true,
+        "checkJs": true,
+        "strict": true,
+        "outDir": "./dist",
+        "moduleResolution": "NodeNext",
+        "esModuleInterop": true,
+        "module": "NodeNext",
+    },
+
+    "exclude": [
+        "./dist/*",
+        "./public/build/**/*"
+    ],
+}
